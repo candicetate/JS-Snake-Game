@@ -11,15 +11,29 @@
 
       .canvas {
         background-color: #e0f8cf;
-        height: 500px;
+        height: 425px;
         margin: 0 auto;
-        width: 500px;
+        width: 425px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #e0f8cf;
+        font-family: Arial, Helvetica, sans-serif;
       }
     </style>
   </head>
   <body>
-    <canvas class="canvas"></canvas>
-
+    <div style="text-align: center;">
+      <h1>Snake!</h1>
+      <h2>
+        Use arrow keys to move.
+      </h2>
+      <h3>Score resets if the Snake eats it's own butt.</h3>
+      <canvas class="canvas"></canvas>
+      <h1>Score: <span class="score"></span></h1>
+    </div>
     <script src="src/game.js"></script>
   </body>
 </html>
