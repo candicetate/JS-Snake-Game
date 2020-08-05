@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <style>
+      body {
+        align-items: center;
+        background-color: #071821;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        margin: 0;
+        width: 100vw;
+      }
+
+      .food {
+        background-color: #306850;
+      }
+
+      #gameboard {
+        background-color: #e0f8cf;
+        display: grid;
+        grid-template-rows: repeat(21, 1fr);
+        grid-template-columns: repeat(21, 1fr);
+        height: 100vmin;
+        width: 100vmin;
+      }
+
+      .snake {
+        background-color: #86c06c;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gameboard"></div>
+  </body>
+</html>
